@@ -12,7 +12,7 @@ cd into the root and run
 
 `python manage.py runserver`
 
-Verify the api is up and running
+Verify the app is up and running
 
 `localhost:8000`
 
@@ -22,7 +22,7 @@ Next cd into webapp and run
 Verify the application is running.
 
 Note: you might have to reload the Django app to apply cors or proxy.
-The React web app is a sumodule and will probably need to be added:
+The React web app is a submodule and will probably need to be added:
 
 `cd webapp` 
 
@@ -34,4 +34,3 @@ to initialize your local configuration file, and
 
 `git submodule update
 `
- to fetch all the data from that
