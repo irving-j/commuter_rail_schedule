@@ -1,2 +1,4 @@
+django
+django-cors-headers
 requests
 gunicorn
