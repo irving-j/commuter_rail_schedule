@@ -22,3 +22,16 @@ Next cd into webapp and run
 Verify the application is running.
 
 Note: you might have to reload the Django app to apply cors or proxy.
+The React web app is a sumodule and will probably need to be added:
+
+`cd webapp` 
+
+then run
+
+`git submodule init` 
+
+to initialize your local configuration file, and 
+
+`git submodule update
+`
+ to fetch all the data from that
